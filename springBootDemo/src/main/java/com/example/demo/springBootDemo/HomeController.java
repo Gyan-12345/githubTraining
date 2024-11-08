@@ -12,7 +12,7 @@ public class HomeController {
 
 	@GetMapping("/springBootDemo")
 	public String hello() {
-		System.out.println("Welcome to index page again");
+		System.out.println("Thi is my indexpage");
 
 		return "index";
 
